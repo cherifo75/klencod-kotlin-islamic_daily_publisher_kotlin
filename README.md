@@ -1,2 +1,9 @@
-# klencod-kotlin-islamic_daily_publisher_kotlin
-Project created by KLENCOD IDE
+# ذكر يومي - Kotlin MVP
+
+نسخة أولى: ثلاثة عناصر يومية، مراجعة يدوية، إنشاء MP4 محليًا من نص الآية/الحديث، ثم مشاركة الفيديو إلى TikTok عبر شاشة المشاركة.
+
+## ملاحظة مهمة
+
+هذا المشروع لا ينشر مباشرة عبر API بعد. النشر المباشر يحتاج TikTok Developer App وOAuth وصلاحية `video.publish` وتدقيق TikTok. لا تضع Client Secret داخل تطبيق Android؛ يجب إضافة خادم وسيط لاحقًا.
+
+النصوص الموجودة في المثال يجب استبدالها بمصدر بيانات موثق ومراجعته قبل الإنتاج.
